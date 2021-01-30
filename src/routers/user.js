@@ -9,7 +9,7 @@ const {
 	sendCancellationEmail,
 } = require("../emails/account");
 
-router.get("", async (req, res) => {
+router.get("/", async (req, res) => {
 	try {
 		res.send("Hi Use /users/login to continue");
 	} catch (e) {
