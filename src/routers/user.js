@@ -11,7 +11,7 @@ const {
 
 router.get("/", async (req, res) => {
 	try {
-		res.send("Hi Use /login to continue");
+		res.send("Hi Use /users/login to continue");
 	} catch (e) {
 		res.status(500).send();
 	}
